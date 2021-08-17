@@ -6,7 +6,7 @@ emailer.sendMail(
   {
     from: 'noreply@wilder.school',
     to: 'jitsi-trainers@wildcodeschool.com',
-    subject: 'New conference recording is available',
+    subject: 'New conference recording is available : ' + link,
     text: 'The recording is available here : ' + link,
     html:
       '<p>The recording is available <a href="' +
